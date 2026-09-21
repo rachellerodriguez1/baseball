@@ -3,6 +3,15 @@ project:
 
 website:
   title: "Baseball"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Home runs"
+        href: home-runs.qmd
+
+execute:
+  echo: false
 
 format:
   html:
