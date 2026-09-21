@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Baseball",
+    "section": "",
+    "text": "Welcome\nThis site explores the history of Major League Baseball through data, focusing on how the game changed over time. The clearest pattern is in home runs per game: when we adjust for season length, the short seasons that seemed unusually quiet are revealed as ordinary, and the real story is how the sport evolved across eras.\nThe analysis pages in the navigation walk through that story in more detail, from season-by-season home run rates to the career leaders who defined the long-ball era. Together, they show how baseball’s biggest stars and biggest moments can be understood through the numbers in the Lahman Baseball Database."
+  }
+]
