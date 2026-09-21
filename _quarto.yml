@@ -9,6 +9,8 @@ website:
         href: index.qmd
       - text: "Home runs"
         href: home-runs.qmd
+      - text: "Sluggers"
+        href: sluggers.qmd
 
 execute:
   echo: false

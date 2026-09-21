@@ -1,0 +1,24 @@
+---
+title: "Sluggers"
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(Lahman)
+
+bonds <- Batting |>
+  filter(playerID == "bondsba01") |>
+  mutate(season = yearID) |>
+  select(season, HR)
+
+ggplot(bonds, aes(x = season, y = HR)) +
+  geom_col(fill = "#d95f02") +
+  labs(
+    title = "Barry Bonds' home runs by season",
+    x = "Season",
+    y = "Home runs",
+    caption = "Source: Lahman Baseball Database"
+  ) +
+  theme_minimal()
+```

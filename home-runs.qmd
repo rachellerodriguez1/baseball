@@ -27,6 +27,9 @@ hr_by_season <- Teams |>
 #| message: false
 #| dependson: hr_by_season
 
+library(tidyverse)
+library(Lahman)
+
 ggplot(hr_by_season, aes(x = yearID, y = hr_per_game, color = shortened)) +
   geom_line(linewidth = 1) +
   geom_point(size = 1.5) +
